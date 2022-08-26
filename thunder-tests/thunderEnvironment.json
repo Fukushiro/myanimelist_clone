@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "9bd95cfb-9729-4af1-89cd-5e50e042d2df",
+    "name": "myanimelistapi",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-08-26T00:04:34.869Z",
+    "modified": "2022-08-26T00:04:49.425Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://api.myanimelist.net/v2"
+      }
+    ]
+  }
+]

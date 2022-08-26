@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "3489e272-0848-4913-820e-0dde00df93f7",
+    "colId": "350d19a1-1cbb-4ab8-8e11-aa846ed53b67",
+    "containerId": "",
+    "name": "first",
+    "url": "{{url}}/animes",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-26T00:05:15.137Z",
+    "modified": "2022-08-26T02:37:00.299Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "70567af7-1c90-477e-9d6a-8c74a80fcb88",
+    "colId": "350d19a1-1cbb-4ab8-8e11-aa846ed53b67",
+    "containerId": "",
+    "name": "second",
+    "url": "https://myanimelist.net/v1/oauth2/token",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-26T00:09:11.422Z",
+    "modified": "2022-08-26T14:04:58.246Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"client_id\" : \"0d81e16b110d7f7448c093dd9d08c925\",\n  \"code_verifier\" : \"J6s2k70o__rXrIzPjsPkkCvp-aUJLow6bKG_Daa42zO\",\n  \"client_secret\" : \"477104d2d78868db1dd92985d1ee7dd3c03a9c7f3ab57e0be55bbbf5723f5e26\",\n  \"response_type\" : \"code\",\n  \"grant_type\":\"authorization_code\",\n  \"code\": \"NbEM8SJW-6ozgxvw3_m9pQwlfhQkkIXQ325yrkyx6smbYug2mWIfEq9MCql5z12tk4q-uK2MwrRMTzf6qjZhuHsVOKrb_beOVOaK5J7Kgyv6JKP9zz0gO232IVZsCIjV\",\n  \"code_challenge\" : \"glu9KnWss_h0z95iEJ2csR35mdZ-n-2h8JOcxpiUZ_I\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
