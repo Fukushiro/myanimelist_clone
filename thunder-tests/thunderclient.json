@@ -31,5 +31,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "b8e212f5-8807-44be-a1e7-152c5cc4ecb7",
+    "colId": "350d19a1-1cbb-4ab8-8e11-aa846ed53b67",
+    "containerId": "",
+    "name": "teste",
+    "url": "{{url}}",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-08-26T17:10:20.620Z",
+    "modified": "2022-08-26T17:14:24.056Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

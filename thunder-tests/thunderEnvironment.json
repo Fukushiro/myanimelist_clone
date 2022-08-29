@@ -2,7 +2,7 @@
   {
     "_id": "9bd95cfb-9729-4af1-89cd-5e50e042d2df",
     "name": "myanimelistapi",
-    "default": true,
+    "default": false,
     "sortNum": 10000,
     "created": "2022-08-26T00:04:34.869Z",
     "modified": "2022-08-26T00:04:49.425Z",
@@ -10,6 +10,20 @@
       {
         "name": "url",
         "value": "https://api.myanimelist.net/v2"
+      }
+    ]
+  },
+  {
+    "_id": "b8aebeef-5344-4ca1-a481-26ed7f9828da",
+    "name": "jikanMal",
+    "default": true,
+    "sortNum": 20000,
+    "created": "2022-08-26T17:13:48.332Z",
+    "modified": "2022-08-26T17:14:00.944Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://api.jikan.moe/v4"
       }
     ]
   }
