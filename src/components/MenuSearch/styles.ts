@@ -43,6 +43,7 @@ export const ListOfCategoriesItens = styled.li`
 export const ListOfOptions = styled.ul`
   position: absolute;
   list-style: none;
+  z-index: 999;
   /* background-color: red; */
   background-color: #254182;
   padding-left: 0;

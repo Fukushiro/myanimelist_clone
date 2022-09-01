@@ -23,9 +23,9 @@ export const ButtonStyle = styled.button<{ inverted?: boolean }>`
       }
       return "#29478c";
     }};
-  width: 100px;
-  height: 24px;
-  font-size: 1rem;
+  width: 94px;
+  height: 26px;
+  font-size: 0.875rem;
   transition: filter 0.5s;
   cursor: pointer;
   :hover {

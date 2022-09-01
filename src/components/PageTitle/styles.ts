@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 900;
     width: 100% - ${textLeftSpace}px;
     margin-left: ${textLeftSpace}px;
