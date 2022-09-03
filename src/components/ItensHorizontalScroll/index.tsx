@@ -11,13 +11,17 @@ export function ItensHorizontalScroll() {
     ref.current.scrollLeft += scrollOffset;
   }
 
+  function handleLeftClick() {
+    scroll(containerRef, -170);
+  }
+
+  function handleRightClick() {
+    scroll(containerRef, 167);
+  }
+
   return (
     <Styles.OuterContainer>
-      <Clickable
-        onClick={() => {
-          scroll(containerRef, -160);
-        }}
-      >
+      <Clickable onClick={handleLeftClick}>
         <Styles.PreviousDiv>
           <AiOutlineArrowLeft color="#e8e6e3" fontSize={20} />
         </Styles.PreviousDiv>
@@ -75,11 +79,7 @@ export function ItensHorizontalScroll() {
           </Styles.ImageDiv>
         </Styles.ContainerImages>
       </Styles.Container>
-      <Clickable
-        onClick={() => {
-          scroll(containerRef, 160);
-        }}
-      >
+      <Clickable onClick={handleRightClick}>
         <Styles.NextDiv>
           <AiOutlineArrowRight color="#e8e6e3" fontSize={20} />
         </Styles.NextDiv>

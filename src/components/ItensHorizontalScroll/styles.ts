@@ -39,7 +39,7 @@ export const Container = styled.div`
 
 export const ContainerImages = styled.div<{ numberOfImages: number }>`
   width: ${(props) => {
-    return (160 + 20) * props.numberOfImages;
+    return (160 + 10) * props.numberOfImages;
   }}px;
   height: 100%;
   display: flex;
@@ -65,7 +65,7 @@ export const NextDiv = styled.div`
 `;
 
 export const ImageDiv = styled.div`
-  margin-right: 20px;
+  margin-right: 10px;
   width: 160px;
   height: 100%;
   background-color: red;

@@ -9,6 +9,7 @@ import { PageTitle } from "../components/PageTitle";
 import { MalJapan } from "../components/MalJapan";
 import { ListTop } from "../components/ListTop";
 import { ItensHorizontalScroll } from "../components/ItensHorizontalScroll";
+import { SectionTitle } from "../components/SectionTitle";
 export default function Home() {
   return (
     <Centralizer>
@@ -29,13 +30,22 @@ export default function Home() {
         <PageTitle title="Welcome to MyAnimeList.net!" />
         {/* content */}
         <Styles.ContentContainer>
+          {/* left content */}
           <Styles.ContentContainerLeft>
             <Styles.ContentContainerLeftContent>
+              {/* List of MALxJapan content */}
               <MalJapan />
+              {/* scroll with seasonal anime */}
+              <SectionTitle
+                title="Summer 2022 Anime"
+                titleUrl=""
+                linkText="View More"
+                linkUrl=""
+              />
+              <ItensHorizontalScroll />
             </Styles.ContentContainerLeftContent>
-
-            <ItensHorizontalScroll />
           </Styles.ContentContainerLeft>
+          {/* right content */}
           <Styles.ContentContainerRight>
             <ListTop
               title="Top Airing Anime"
