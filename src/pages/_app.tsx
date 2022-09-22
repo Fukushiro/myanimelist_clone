@@ -1,5 +1,6 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
+import "../styles/globals.css";
 const GlobalStyle = createGlobalStyle`
     /* * {
         margin: 0;
@@ -15,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
+      {/* <GlobalStyle /> */}
       <Component {...pageProps} />
     </>
   );

@@ -10,6 +10,7 @@ import { MalJapan } from "../components/MalJapan";
 import { ListTop } from "../components/ListTop";
 import { ItensHorizontalScroll } from "../components/ItensHorizontalScroll";
 import { SectionTitle } from "../components/SectionTitle";
+import { ItensHorizontalScrollKeen } from "../components/ItensHorizontalScrollKeen";
 export default function Home() {
   return (
     <Centralizer>
@@ -42,6 +43,7 @@ export default function Home() {
                 linkText="View More"
                 linkUrl=""
               />
+              <ItensHorizontalScrollKeen />
               <ItensHorizontalScroll />
             </Styles.ContentContainerLeftContent>
           </Styles.ContentContainerLeft>
