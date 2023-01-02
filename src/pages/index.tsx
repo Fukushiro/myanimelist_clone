@@ -11,21 +11,14 @@ import { ListTop } from "../components/ListTop";
 import { ItensHorizontalScroll } from "../components/ItensHorizontalScroll";
 import { SectionTitle } from "../components/SectionTitle";
 import { ItensHorizontalScrollKeen } from "../components/ItensHorizontalScrollKeen";
+import { ImageBanner } from "../components/ImageBanner";
 export default function Home() {
   return (
     <Centralizer>
       <Styles.Container>
         <Header />
-        {/* banner */}
-        <Styles.ImageContainer>
-          <Image
-            src={
-              "https://cdn.myanimelist.net/images/event/BR_20220830_PDA/PDA_PC_top.jpg"
-            }
-            layout="fill"
-            objectFit="contain"
-          />
-        </Styles.ImageContainer>
+        {/* Banner with anime image */}
+        <ImageBanner />
         {/* page */}
         <MenuSearch />
         <PageTitle title="Welcome to MyAnimeList.net!" />
@@ -43,8 +36,37 @@ export default function Home() {
                 linkText="View More"
                 linkUrl=""
               />
-              <ItensHorizontalScrollKeen />
-              <ItensHorizontalScroll />
+              <ItensHorizontalScrollKeen
+                itens={[
+                  {
+                    imageUrl:
+                      "https://cdn.myanimelist.net/r/160x220/images/anime/1502/124354.webp?s=c10a8acbd5a0f67e106d36fc766464a5",
+                  },
+                  {
+                    imageUrl:
+                      "https://cdn.myanimelist.net/r/160x220/images/anime/1530/120110.webp?s=4aaac682a2a4727af927349fa2eb9260",
+                  },
+                  {
+                    imageUrl:
+                      "https://cdn.myanimelist.net/r/160x220/images/anime/1045/123711.webp?s=b80cf606d52693fadd8a13b0b05eaf49",
+                  },
+                  {
+                    imageUrl:
+                      "https://cdn.myanimelist.net/r/160x220/images/anime/1530/120110.webp?s=4aaac682a2a4727af927349fa2eb9260",
+                  },
+                  {
+                    imageUrl:
+                      "https://cdn.myanimelist.net/r/160x220/images/anime/1530/120110.webp?s=4aaac682a2a4727af927349fa2eb9260",
+                  },
+                ]}
+              />
+              {/* <SectionTitle
+                title="Summer 2022 Anime"
+                titleUrl=""
+                linkText="View More"
+                linkUrl=""
+              />
+              <ItensHorizontalScroll /> */}
             </Styles.ContentContainerLeftContent>
           </Styles.ContentContainerLeft>
           {/* right content */}
